@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&family=Sen&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #faf8ed;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 383px;
+  margin: 39px 135px;
+}
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 36px;
+}
+span {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #2d3134;
+  width: 50px;
+}
+a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #2e476b;
+}
+button {
+  width: 170px;
+  height: 54px;
+  border: 1.4px solid #f66f4d;
+  border-radius: 27px;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #f66f4d;
+}
+button span {
+  color: #f66f4d;
+}
+h1 {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 66px;
+  color: #2d3134;
+  margin-bottom: 16px;
+}
+.main__para {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #5b5f62;
+  margin-bottom: 35px;
+}
+.destinations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.london,
+.bangkok,
+.england,
+.singapore,
+.italy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  width: 100px;
+  height: 34px;
+  border: 1px solid #3d3d3d;
+  border-radius: 30px;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #2d3134;
+  margin-bottom: 60px;
+}
+
+button:hover {
+  background: #2d3134;
+  color: #ffffff;
+  cursor: pointer;
+}
+a:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+.cards {
+  display: grid;
+  height: 100vh;
+  grid-template-areas:
+    " content1 . content2 . content3"
+    " content4 . content2 . content6";
+  grid-template-columns: 270px 30px 370px 30px 470px;
+  grid-template-rows: 250px 250px;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.card1 {
+  grid-area: content1;
+  background-image: url("./assets/images/Rectangle 4389.png");
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+.rectangle {
+  width: 42px;
+  height: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+  margin: 24px 24px;
+}
+.rectangle__black {
+  width: 42px;
+  height: 24px;
+  background: #2d3134;
+  border-radius: 12px;
+  text-align: center;
+  margin: 24px 24px;
+  color: #ffffff;
+}
+h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.card__span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+}
+.text-box {
+  margin: 24px 24px;
+}
+
+.card2 {
+  grid-area: content2;
+  background-image: url(./assets/images/Rectangle\ 4391.png);
+  display: flex;
+  flex-direction: column;
+  gap: 370px;
+}
+
+.card3 {
+  grid-area: content3;
+  background-image: url(./assets/images/Rectangle\ 4392.png);
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.card4 {
+  grid-area: content4;
+  background-image: url(./assets/images/Group.png);
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.card6 {
+  grid-area: content6;
+  display: flex;
+  gap: 50px;
+}
+.card6__container1 {
+  width: 170px;
+  background-image: url(./assets/images/Rectangle\ 4394.png);
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  border-radius: 20px;
+}
+.card6__container2 {
+  width: 270px;
+  background-image: url(./assets/images/Rectangle\ 4395.png);
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  border-radius: 20px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 275px;
+  margin-bottom: 60px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.footer__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 120px;
+}
+.resources,
+.Travellers,
+.Company,
+.Get__app {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2d3134;
+  margin-bottom: 25px;
+}
+
+.footer__text span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 34px;
+  color: #676a6c;
+}
+footer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 34px;
+  color: #676a6c;
+}
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
